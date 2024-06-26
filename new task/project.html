@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .headerstyle {
+      border: 2px solid black;
+      padding: 20px;
+    }
+    span {
+      text-align: center;
+    }
+
+    .sectionstyle {
+      border: 2px solid black;
+      display: flex;
+    }
+
+    .asideclass {
+      height: 500px;
+      width: 30%;
+      border: 1px solid black;
+    }
+    .articleClass {
+      width: 70%;
+      height: 50%;
+    }
+    .imgStyle {
+      margin: 0 40px;
+    }
+  </style>
+  <body>
+    <div>
+      <header class="headerstyle">
+        <span style="text-align: center">HEADER</span>
+      </header>
+      <section class="sectionstyle">
+        <aside class="asideclass"></aside>
+
+        <article class="articleClass">
+          <div
+            style="
+              margin-top: 400px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+            "
+          >
+            <img
+              class="imgStyle"
+              src="../download (1).jpeg"
+              style="height: 120px; width: 120px"
+            />
+            <img
+              class="imgStyle"
+              src="../download (1).jpeg"
+              style="height: 120px; width: 120px"
+            />
+            <img
+              class="imgStyle"
+              src="../download (1).jpeg"
+              style="height: 120px; width: 120px"
+            />
+          </div>
+        </article>
+      </section>
+      <footer style="padding: 20px">
+        <span style="text-align: center">Footer</span>
+      </footer>
+    </div>
+  </body>
+</html>
